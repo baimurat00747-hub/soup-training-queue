@@ -1,0 +1,23 @@
+test_crash_before_commit_rolls_back_and_recovers (test_failure_windows.FailureWindowTest) ... Effect staged before COMMIT: 1
+Crash exit: -9
+After crash: state=running, effects=[]
+After recovery: state=succeeded, effects=[(1, 2)]
+ok
+test_stopped_writer_blocks_other_writes_until_killed (test_failure_windows.FailureWindowTest) ... Effect staged before COMMIT: 1
+Concurrent create: database is locked after 2.002s
+After SIGKILL: creation works, staged effect rolled back
+ok
+test_worker_resumes_after_five_minutes (test_failure_windows.FailureWindowTest) ... Attempt 1 paused during execution
+Frozen worker pid=8297; holding SIGSTOP for 300s
+worker started pid=8298
+Replacement completed attempt 2 after 3.533s
+Resuming after 300.004s
+Completion accepted: False
+After original resumed: effects=[(1, 2)]
+ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 304.136s
+
+OK
+Exit code: 0

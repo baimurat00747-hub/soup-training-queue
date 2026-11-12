@@ -1,0 +1,8 @@
+test_busy_write_records_wait_without_transaction_time (test_sql_timing.SQLTimingTest) ... ok
+test_create_and_repeat_measure_only_the_phases_they_use (test_sql_timing.SQLTimingTest) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.038s
+
+OK
+Exit code: 0

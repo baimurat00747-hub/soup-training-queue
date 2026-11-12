@@ -1,0 +1,225 @@
+Starting chaos: jobs=10000, workers=8, seed=42
+INFO:     Started server process [10351]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+worker started pid=10352
+worker started pid=10353
+worker started pid=10354
+worker started pid=10355
+worker started pid=10357
+worker started pid=10356
+worker started pid=10358
+worker started pid=10359
+SIGKILL pid=10353 exit=-9, replacement pid=10363
+worker started pid=10363
+SIGKILL pid=10352 exit=-9, replacement pid=10364
+worker started pid=10364
+SIGKILL pid=10356 exit=-9, replacement pid=10370
+worker started pid=10370
+SIGKILL pid=10355 exit=-9, replacement pid=10373
+worker started pid=10373
+SIGKILL pid=10373 exit=-9, replacement pid=10377
+worker started pid=10377
+SIGKILL pid=10354 exit=-9, replacement pid=10380
+worker started pid=10380
+SIGKILL pid=10363 exit=-9, replacement pid=10381
+worker started pid=10381
+SIGKILL pid=10381 exit=-9, replacement pid=10382
+worker started pid=10382
+SIGKILL pid=10358 exit=-9, replacement pid=10383
+worker started pid=10383
+SIGKILL pid=10364 exit=-9, replacement pid=10389
+worker started pid=10389
+SIGKILL pid=10389 exit=-9, replacement pid=10390
+worker started pid=10390
+SIGKILL pid=10382 exit=-9, replacement pid=10393
+worker started pid=10393
+SIGKILL pid=10377 exit=-9, replacement pid=10394
+worker started pid=10394
+SIGKILL pid=10394 exit=-9, replacement pid=10399
+worker started pid=10399
+SIGKILL pid=10390 exit=-9, replacement pid=10405
+worker started pid=10405
+SIGKILL pid=10399 exit=-9, replacement pid=10408
+worker started pid=10408
+SIGKILL pid=10383 exit=-9, replacement pid=10409
+worker started pid=10409
+SIGKILL pid=10408 exit=-9, replacement pid=10412
+worker started pid=10412
+SIGKILL pid=10359 exit=-9, replacement pid=10414
+worker started pid=10414
+SIGKILL pid=10370 exit=-9, replacement pid=10423
+worker started pid=10423
+SIGKILL pid=10405 exit=-9, replacement pid=10426
+worker started pid=10426
+SIGKILL pid=10380 exit=-9, replacement pid=10429
+worker started pid=10429
+SIGKILL pid=10409 exit=-9, replacement pid=10430
+worker started pid=10430
+SIGKILL pid=10357 exit=-9, replacement pid=10434
+worker started pid=10434
+SIGKILL pid=10423 exit=-9, replacement pid=10438
+worker started pid=10438
+SIGKILL pid=10429 exit=-9, replacement pid=10439
+worker started pid=10439
+SIGKILL pid=10412 exit=-9, replacement pid=10442
+worker started pid=10442
+SIGKILL pid=10434 exit=-9, replacement pid=10444
+worker started pid=10444
+SIGKILL pid=10393 exit=-9, replacement pid=10446
+worker started pid=10446
+SIGKILL pid=10446 exit=-9, replacement pid=10450
+worker started pid=10450
+SIGKILL pid=10430 exit=-9, replacement pid=10451
+worker started pid=10451
+SIGKILL pid=10450 exit=-9, replacement pid=10452
+worker started pid=10452
+SIGKILL pid=10444 exit=-9, replacement pid=10455
+worker started pid=10455
+SIGKILL pid=10455 exit=-9, replacement pid=10460
+worker started pid=10460
+SIGKILL pid=10438 exit=-9, replacement pid=10465
+worker started pid=10465
+SIGKILL pid=10426 exit=-9, replacement pid=10468
+worker started pid=10468
+SIGKILL pid=10414 exit=-9, replacement pid=10469
+worker started pid=10469
+SIGKILL pid=10452 exit=-9, replacement pid=10472
+worker started pid=10472
+SIGKILL pid=10451 exit=-9, replacement pid=10475
+worker started pid=10475
+SIGKILL pid=10472 exit=-9, replacement pid=10479
+worker started pid=10479
+SIGKILL pid=10465 exit=-9, replacement pid=10480
+worker started pid=10480
+SIGKILL pid=10460 exit=-9, replacement pid=10493
+worker started pid=10493
+SIGKILL pid=10442 exit=-9, replacement pid=10496
+worker started pid=10496
+SIGKILL pid=10479 exit=-9, replacement pid=10497
+worker started pid=10497
+SIGKILL pid=10468 exit=-9, replacement pid=10505
+worker started pid=10505
+SIGKILL pid=10496 exit=-9, replacement pid=10510
+worker started pid=10510
+SIGKILL pid=10480 exit=-9, replacement pid=10515
+worker started pid=10515
+SIGKILL pid=10497 exit=-9, replacement pid=10521
+worker started pid=10521
+SIGKILL pid=10510 exit=-9, replacement pid=10524
+worker started pid=10524
+SIGKILL pid=10521 exit=-9, replacement pid=10532
+worker started pid=10532
+SIGKILL pid=10475 exit=-9, replacement pid=10533
+worker started pid=10533
+SIGKILL pid=10515 exit=-9, replacement pid=10536
+worker started pid=10536
+SIGKILL pid=10469 exit=-9, replacement pid=10537
+worker started pid=10537
+SIGKILL pid=10493 exit=-9, replacement pid=10545
+worker started pid=10545
+SIGKILL pid=10439 exit=-9, replacement pid=10551
+worker started pid=10551
+SIGKILL pid=10545 exit=-9, replacement pid=10552
+worker started pid=10552
+SIGKILL pid=10552 exit=-9, replacement pid=10557
+worker started pid=10557
+SIGKILL pid=10524 exit=-9, replacement pid=10560
+worker started pid=10560
+SIGKILL pid=10536 exit=-9, replacement pid=10561
+worker started pid=10561
+SIGKILL pid=10532 exit=-9, replacement pid=10567
+worker started pid=10567
+SIGKILL pid=10551 exit=-9, replacement pid=10568
+worker started pid=10568
+SIGKILL pid=10560 exit=-9, replacement pid=10571
+worker started pid=10571
+SIGKILL pid=10568 exit=-9, replacement pid=10574
+worker started pid=10574
+SIGKILL pid=10537 exit=-9, replacement pid=10576
+worker started pid=10576
+SIGKILL pid=10533 exit=-9, replacement pid=10591
+worker started pid=10591
+SIGKILL pid=10561 exit=-9, replacement pid=10595
+worker started pid=10595
+SIGKILL pid=10571 exit=-9, replacement pid=10600
+worker started pid=10600
+SIGKILL pid=10557 exit=-9, replacement pid=10601
+worker started pid=10601
+SIGKILL pid=10505 exit=-9, replacement pid=10604
+worker started pid=10604
+SIGKILL pid=10600 exit=-9, replacement pid=10616
+worker started pid=10616
+SIGKILL pid=10604 exit=-9, replacement pid=10617
+worker started pid=10617
+SIGKILL pid=10601 exit=-9, replacement pid=10622
+worker started pid=10622
+SIGKILL pid=10591 exit=-9, replacement pid=10626
+worker started pid=10626
+SIGKILL pid=10595 exit=-9, replacement pid=10627
+worker started pid=10627
+SIGKILL pid=10567 exit=-9, replacement pid=10634
+worker started pid=10634
+SIGKILL pid=10616 exit=-9, replacement pid=10637
+worker started pid=10637
+SIGKILL pid=10622 exit=-9, replacement pid=10640
+worker started pid=10640
+SIGKILL pid=10637 exit=-9, replacement pid=10643
+worker started pid=10643
+SIGKILL pid=10576 exit=-9, replacement pid=10653
+worker started pid=10653
+SIGKILL pid=10626 exit=-9, replacement pid=10659
+worker started pid=10659
+SIGKILL pid=10653 exit=-9, replacement pid=10662
+worker started pid=10662
+SIGKILL pid=10574 exit=-9, replacement pid=10665
+worker started pid=10665
+SIGKILL pid=10627 exit=-9, replacement pid=10666
+worker started pid=10666
+SIGKILL pid=10665 exit=-9, replacement pid=10669
+worker started pid=10669
+SIGKILL pid=10643 exit=-9, replacement pid=10675
+worker started pid=10675
+SIGKILL pid=10666 exit=-9, replacement pid=10676
+worker started pid=10676
+SIGKILL pid=10659 exit=-9, replacement pid=10681
+worker started pid=10681
+SIGKILL pid=10681 exit=-9, replacement pid=10684
+worker started pid=10684
+SIGKILL pid=10640 exit=-9, replacement pid=10685
+worker started pid=10685
+SIGKILL pid=10675 exit=-9, replacement pid=10692
+worker started pid=10692
+SIGKILL pid=10669 exit=-9, replacement pid=10693
+worker started pid=10693
+SIGKILL pid=10662 exit=-9, replacement pid=10697
+worker started pid=10697
+SIGKILL pid=10634 exit=-9, replacement pid=10701
+worker started pid=10701
+SIGKILL pid=10617 exit=-9, replacement pid=10702
+worker started pid=10702
+SIGKILL pid=10701 exit=-9, replacement pid=10711
+worker started pid=10711
+SIGKILL pid=10693 exit=-9, replacement pid=10714
+worker started pid=10714
+SIGKILL pid=10714 exit=-9, replacement pid=10717
+worker started pid=10717
+SIGKILL pid=10684 exit=-9, replacement pid=10718
+worker started pid=10718
+SIGKILL pid=10711 exit=-9, replacement pid=10721
+worker started pid=10721
+HTTP scenarios completed: 10000
+Worker kills: 99
+Expected keys: 10000, jobs in DB: 10000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10351]
+Final states: [('cancelled', 2500), ('failed', 441), ('succeeded', 7059)]
+Jobs claimed more than once: 81
+Exit code: 0

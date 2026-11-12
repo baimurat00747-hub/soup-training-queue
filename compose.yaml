@@ -1,0 +1,30 @@
+x-queue: &queue
+  build: .
+  image: soup-training-queue:local
+  environment:
+    QUEUE_DB: /data/queue.sqlite3
+  volumes:
+    - queue-data:/data
+  restart: unless-stopped
+
+services:
+  api:
+    <<: *queue
+    command: python -m uvicorn soup_queue.api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "127.0.0.1:8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "from urllib.request import urlopen; urlopen('http://localhost:8000/healthz', timeout=2).close()"]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+  worker:
+    <<: *queue
+    command: python -m soup_queue.worker
+    scale: 4
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  queue-data:

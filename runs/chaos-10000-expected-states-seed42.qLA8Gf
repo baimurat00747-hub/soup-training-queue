@@ -1,0 +1,227 @@
+Starting chaos: jobs=10000, workers=8, seed=42
+INFO:     Started server process [12698]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+worker started pid=12700
+worker started pid=12699
+worker started pid=12701
+worker started pid=12702
+worker started pid=12703
+worker started pid=12704
+worker started pid=12705
+worker started pid=12706
+SIGKILL pid=12700 exit=-9, replacement pid=12709
+worker started pid=12709
+SIGKILL pid=12699 exit=-9, replacement pid=12715
+worker started pid=12715
+SIGKILL pid=12703 exit=-9, replacement pid=12717
+worker started pid=12717
+SIGKILL pid=12702 exit=-9, replacement pid=12718
+worker started pid=12718
+SIGKILL pid=12718 exit=-9, replacement pid=12722
+worker started pid=12722
+SIGKILL pid=12701 exit=-9, replacement pid=12725
+worker started pid=12725
+SIGKILL pid=12709 exit=-9, replacement pid=12731
+worker started pid=12731
+SIGKILL pid=12731 exit=-9, replacement pid=12732
+worker started pid=12732
+SIGKILL pid=12705 exit=-9, replacement pid=12738
+worker started pid=12738
+SIGKILL pid=12715 exit=-9, replacement pid=12741
+worker started pid=12741
+SIGKILL pid=12741 exit=-9, replacement pid=12742
+worker started pid=12742
+SIGKILL pid=12732 exit=-9, replacement pid=12746
+worker started pid=12746
+SIGKILL pid=12722 exit=-9, replacement pid=12749
+worker started pid=12749
+SIGKILL pid=12749 exit=-9, replacement pid=12752
+worker started pid=12752
+SIGKILL pid=12742 exit=-9, replacement pid=12753
+worker started pid=12753
+SIGKILL pid=12752 exit=-9, replacement pid=12756
+worker started pid=12756
+SIGKILL pid=12738 exit=-9, replacement pid=12762
+worker started pid=12762
+SIGKILL pid=12756 exit=-9, replacement pid=12763
+worker started pid=12763
+SIGKILL pid=12706 exit=-9, replacement pid=12764
+worker started pid=12764
+SIGKILL pid=12717 exit=-9, replacement pid=12765
+worker started pid=12765
+SIGKILL pid=12753 exit=-9, replacement pid=12767
+worker started pid=12767
+SIGKILL pid=12725 exit=-9, replacement pid=12773
+worker started pid=12773
+SIGKILL pid=12762 exit=-9, replacement pid=12774
+worker started pid=12774
+SIGKILL pid=12704 exit=-9, replacement pid=12775
+worker started pid=12775
+SIGKILL pid=12765 exit=-9, replacement pid=12778
+worker started pid=12778
+SIGKILL pid=12773 exit=-9, replacement pid=12780
+worker started pid=12780
+SIGKILL pid=12763 exit=-9, replacement pid=12784
+worker started pid=12784
+SIGKILL pid=12775 exit=-9, replacement pid=12787
+worker started pid=12787
+SIGKILL pid=12746 exit=-9, replacement pid=12788
+worker started pid=12788
+SIGKILL pid=12788 exit=-9, replacement pid=12789
+worker started pid=12789
+SIGKILL pid=12774 exit=-9, replacement pid=12792
+worker started pid=12792
+SIGKILL pid=12789 exit=-9, replacement pid=12798
+worker started pid=12798
+SIGKILL pid=12787 exit=-9, replacement pid=12799
+worker started pid=12799
+SIGKILL pid=12799 exit=-9, replacement pid=12800
+worker started pid=12800
+SIGKILL pid=12778 exit=-9, replacement pid=12801
+worker started pid=12801
+SIGKILL pid=12767 exit=-9, replacement pid=12803
+worker started pid=12803
+SIGKILL pid=12764 exit=-9, replacement pid=12809
+worker started pid=12809
+SIGKILL pid=12798 exit=-9, replacement pid=12811
+worker started pid=12811
+SIGKILL pid=12792 exit=-9, replacement pid=12812
+worker started pid=12812
+SIGKILL pid=12811 exit=-9, replacement pid=12815
+worker started pid=12815
+SIGKILL pid=12801 exit=-9, replacement pid=12816
+worker started pid=12816
+SIGKILL pid=12800 exit=-9, replacement pid=12820
+worker started pid=12820
+SIGKILL pid=12784 exit=-9, replacement pid=12823
+worker started pid=12823
+SIGKILL pid=12815 exit=-9, replacement pid=12826
+worker started pid=12826
+SIGKILL pid=12803 exit=-9, replacement pid=12827
+worker started pid=12827
+SIGKILL pid=12823 exit=-9, replacement pid=12830
+worker started pid=12830
+SIGKILL pid=12816 exit=-9, replacement pid=12836
+worker started pid=12836
+SIGKILL pid=12826 exit=-9, replacement pid=12837
+worker started pid=12837
+SIGKILL pid=12830 exit=-9, replacement pid=12838
+worker started pid=12838
+SIGKILL pid=12837 exit=-9, replacement pid=12839
+worker started pid=12839
+SIGKILL pid=12812 exit=-9, replacement pid=12841
+worker started pid=12841
+SIGKILL pid=12836 exit=-9, replacement pid=12847
+worker started pid=12847
+SIGKILL pid=12809 exit=-9, replacement pid=12848
+worker started pid=12848
+SIGKILL pid=12820 exit=-9, replacement pid=12850
+worker started pid=12850
+SIGKILL pid=12780 exit=-9, replacement pid=12853
+worker started pid=12853
+SIGKILL pid=12850 exit=-9, replacement pid=12859
+worker started pid=12859
+SIGKILL pid=12859 exit=-9, replacement pid=12863
+worker started pid=12863
+SIGKILL pid=12838 exit=-9, replacement pid=12866
+worker started pid=12866
+SIGKILL pid=12847 exit=-9, replacement pid=12867
+worker started pid=12867
+SIGKILL pid=12839 exit=-9, replacement pid=12868
+worker started pid=12868
+SIGKILL pid=12853 exit=-9, replacement pid=12872
+worker started pid=12872
+SIGKILL pid=12866 exit=-9, replacement pid=12879
+worker started pid=12879
+SIGKILL pid=12872 exit=-9, replacement pid=12880
+worker started pid=12880
+SIGKILL pid=12848 exit=-9, replacement pid=12882
+worker started pid=12882
+SIGKILL pid=12841 exit=-9, replacement pid=12884
+worker started pid=12884
+SIGKILL pid=12867 exit=-9, replacement pid=12885
+worker started pid=12885
+SIGKILL pid=12879 exit=-9, replacement pid=12891
+worker started pid=12891
+SIGKILL pid=12863 exit=-9, replacement pid=12892
+worker started pid=12892
+SIGKILL pid=12827 exit=-9, replacement pid=12893
+worker started pid=12893
+SIGKILL pid=12891 exit=-9, replacement pid=12896
+worker started pid=12896
+SIGKILL pid=12893 exit=-9, replacement pid=12897
+worker started pid=12897
+SIGKILL pid=12892 exit=-9, replacement pid=12901
+worker started pid=12901
+SIGKILL pid=12884 exit=-9, replacement pid=12904
+worker started pid=12904
+SIGKILL pid=12885 exit=-9, replacement pid=12907
+worker started pid=12907
+SIGKILL pid=12868 exit=-9, replacement pid=12908
+worker started pid=12908
+SIGKILL pid=12896 exit=-9, replacement pid=12911
+worker started pid=12911
+SIGKILL pid=12901 exit=-9, replacement pid=12917
+worker started pid=12917
+SIGKILL pid=12911 exit=-9, replacement pid=12918
+worker started pid=12918
+SIGKILL pid=12882 exit=-9, replacement pid=12919
+worker started pid=12919
+SIGKILL pid=12904 exit=-9, replacement pid=12921
+worker started pid=12921
+SIGKILL pid=12919 exit=-9, replacement pid=12922
+worker started pid=12922
+SIGKILL pid=12880 exit=-9, replacement pid=12929
+worker started pid=12929
+SIGKILL pid=12907 exit=-9, replacement pid=12930
+worker started pid=12930
+SIGKILL pid=12929 exit=-9, replacement pid=12931
+worker started pid=12931
+SIGKILL pid=12918 exit=-9, replacement pid=12937
+worker started pid=12937
+SIGKILL pid=12930 exit=-9, replacement pid=12938
+worker started pid=12938
+SIGKILL pid=12921 exit=-9, replacement pid=12942
+worker started pid=12942
+SIGKILL pid=12942 exit=-9, replacement pid=12945
+worker started pid=12945
+SIGKILL pid=12917 exit=-9, replacement pid=12946
+worker started pid=12946
+SIGKILL pid=12937 exit=-9, replacement pid=12947
+worker started pid=12947
+SIGKILL pid=12931 exit=-9, replacement pid=12950
+worker started pid=12950
+SIGKILL pid=12922 exit=-9, replacement pid=12956
+worker started pid=12956
+SIGKILL pid=12908 exit=-9, replacement pid=12959
+worker started pid=12959
+SIGKILL pid=12897 exit=-9, replacement pid=12978
+worker started pid=12978
+SIGKILL pid=12959 exit=-9, replacement pid=12982
+worker started pid=12982
+SIGKILL pid=12950 exit=-9, replacement pid=12983
+worker started pid=12983
+SIGKILL pid=12983 exit=-9, replacement pid=12990
+worker started pid=12990
+SIGKILL pid=12945 exit=-9, replacement pid=12991
+worker started pid=12991
+SIGKILL pid=12982 exit=-9, replacement pid=12992
+worker started pid=12992
+HTTP scenarios completed: 10000
+Worker kills: 99
+Expected keys: 10000, jobs in DB: 10000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+Final state mismatches: 0, examples: []
+Effect attempt mismatches: 0, examples: []
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12698]
+Final states: [('cancelled', 2500), ('failed', 441), ('succeeded', 7059)]
+Jobs claimed more than once: 71
+Exit code: 0

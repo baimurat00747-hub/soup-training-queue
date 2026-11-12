@@ -1,0 +1,11 @@
+test_cancel_conflict_cannot_confirm_the_wrong_completion_outcome (test_chaos_verifier.ChaosVerifierTest) ... ok
+test_completion_after_confirmed_cancellation_fails (test_chaos_verifier.ChaosVerifierTest) ... ok
+test_effect_from_older_attempt_fails_despite_valid_effect_count (test_chaos_verifier.ChaosVerifierTest) ... ok
+test_valid_outcomes_and_matching_effect_pass (test_chaos_verifier.ChaosVerifierTest) ... ok
+test_wrong_terminal_state_fails_despite_valid_effect_count (test_chaos_verifier.ChaosVerifierTest) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.040s
+
+OK
+Exit code: 0

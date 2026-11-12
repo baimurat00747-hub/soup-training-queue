@@ -1,0 +1,492 @@
+ Image soup-training-queue:local Building 
+ Image soup-training-queue:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.01kB done
+#1 DONE 0.0s
+
+#2 [worker internal] load build definition from Dockerfile
+#2 transferring dockerfile: 227B done
+#2 DONE 0.0s
+
+#3 [worker internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 0.8s
+
+#4 [api internal] load .dockerignore
+#4 transferring context: 82B done
+#4 DONE 0.0s
+
+#5 [worker internal] load build context
+#5 transferring context: 222B done
+#5 DONE 0.0s
+
+#6 [worker 1/5] FROM docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+#6 resolve docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b done
+#6 DONE 0.0s
+
+#7 [worker 2/5] WORKDIR /app
+#7 CACHED
+
+#8 [worker 3/5] COPY requirements.txt .
+#8 CACHED
+
+#9 [worker 4/5] RUN pip install --no-cache-dir -r requirements.txt
+#9 CACHED
+
+#10 [worker 5/5] COPY soup_queue ./soup_queue
+#10 CACHED
+
+#11 [api] exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:2758c32cbe60f06c514b98de6ec854fbfc8ed45c73f6e6c0b40be8d4b6674bf0 done
+#11 exporting config sha256:be041d8a25d850290835e948d62c7937b8df31977b25cc3722a07034262ba9a2 done
+#11 exporting attestation manifest sha256:ce5df5b42d28ab32cf5303ce496576dd181817618e89a7c2ee7ffca8515d4035 0.0s done
+#11 exporting manifest list sha256:b42a61624ce5af9673ebc409bf6265586a66a5a0518418082e2694be5167b67f done
+#11 naming to docker.io/library/soup-training-queue:local done
+#11 unpacking to docker.io/library/soup-training-queue:local done
+#11 DONE 0.0s
+
+#12 [worker] exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:ba7e673dd19b557813d429c12e9240422f7c902d90b765ba66cd531293762ca5 done
+#12 exporting config sha256:bb8471539beb93503f502a9e14eab20c8d4497738575b737e8a381a174a6c7c1 done
+#12 exporting attestation manifest sha256:b425c0354ec2b49670959281d9bc062d70757df17b0ec472ac1556e05d4c819a 0.0s done
+#12 exporting manifest list sha256:f45d155d4625a731abc5084f0e13ea16699744a37b57e84ca15d343e0aa3d5a4 done
+#12 naming to docker.io/library/soup-training-queue:local done
+#12 unpacking to docker.io/library/soup-training-queue:local done
+#12 DONE 0.1s
+
+#13 [api] resolving provenance for metadata file
+#13 DONE 0.0s
+
+#14 [worker] resolving provenance for metadata file
+#14 DONE 0.0s
+ Image soup-training-queue:local Built 
+ Image soup-training-queue:local Built 
+ Network soup-profile-1000-1794502599_default Creating 
+ Network soup-profile-1000-1794502599_default Created 
+ Volume soup-profile-1000-1794502599_queue-data Creating 
+ Volume soup-profile-1000-1794502599_queue-data Created 
+ Container soup-profile-1000-1794502599-api-1 Creating 
+ Container soup-profile-1000-1794502599-api-1 Created 
+ Container soup-profile-1000-1794502599-worker-3 Creating 
+ Container soup-profile-1000-1794502599-worker-16 Creating 
+ Container soup-profile-1000-1794502599-worker-26 Creating 
+ Container soup-profile-1000-1794502599-worker-27 Creating 
+ Container soup-profile-1000-1794502599-worker-19 Creating 
+ Container soup-profile-1000-1794502599-worker-31 Creating 
+ Container soup-profile-1000-1794502599-worker-29 Creating 
+ Container soup-profile-1000-1794502599-worker-23 Creating 
+ Container soup-profile-1000-1794502599-worker-14 Creating 
+ Container soup-profile-1000-1794502599-worker-28 Creating 
+ Container soup-profile-1000-1794502599-worker-30 Creating 
+ Container soup-profile-1000-1794502599-worker-22 Creating 
+ Container soup-profile-1000-1794502599-worker-25 Creating 
+ Container soup-profile-1000-1794502599-worker-17 Creating 
+ Container soup-profile-1000-1794502599-worker-32 Creating 
+ Container soup-profile-1000-1794502599-worker-10 Creating 
+ Container soup-profile-1000-1794502599-worker-5 Creating 
+ Container soup-profile-1000-1794502599-worker-11 Creating 
+ Container soup-profile-1000-1794502599-worker-13 Creating 
+ Container soup-profile-1000-1794502599-worker-21 Creating 
+ Container soup-profile-1000-1794502599-worker-2 Creating 
+ Container soup-profile-1000-1794502599-worker-6 Creating 
+ Container soup-profile-1000-1794502599-worker-7 Creating 
+ Container soup-profile-1000-1794502599-worker-18 Creating 
+ Container soup-profile-1000-1794502599-worker-15 Creating 
+ Container soup-profile-1000-1794502599-worker-1 Creating 
+ Container soup-profile-1000-1794502599-worker-8 Creating 
+ Container soup-profile-1000-1794502599-worker-20 Creating 
+ Container soup-profile-1000-1794502599-worker-9 Creating 
+ Container soup-profile-1000-1794502599-worker-12 Creating 
+ Container soup-profile-1000-1794502599-worker-4 Creating 
+ Container soup-profile-1000-1794502599-worker-24 Creating 
+ Container soup-profile-1000-1794502599-worker-27 Created 
+ Container soup-profile-1000-1794502599-worker-32 Created 
+ Container soup-profile-1000-1794502599-worker-11 Created 
+ Container soup-profile-1000-1794502599-worker-29 Created 
+ Container soup-profile-1000-1794502599-worker-3 Created 
+ Container soup-profile-1000-1794502599-worker-12 Created 
+ Container soup-profile-1000-1794502599-worker-31 Created 
+ Container soup-profile-1000-1794502599-worker-22 Created 
+ Container soup-profile-1000-1794502599-worker-16 Created 
+ Container soup-profile-1000-1794502599-worker-23 Created 
+ Container soup-profile-1000-1794502599-worker-26 Created 
+ Container soup-profile-1000-1794502599-worker-21 Created 
+ Container soup-profile-1000-1794502599-worker-7 Created 
+ Container soup-profile-1000-1794502599-worker-2 Created 
+ Container soup-profile-1000-1794502599-worker-14 Created 
+ Container soup-profile-1000-1794502599-worker-19 Created 
+ Container soup-profile-1000-1794502599-worker-18 Created 
+ Container soup-profile-1000-1794502599-worker-30 Created 
+ Container soup-profile-1000-1794502599-worker-24 Created 
+ Container soup-profile-1000-1794502599-worker-5 Created 
+ Container soup-profile-1000-1794502599-worker-28 Created 
+ Container soup-profile-1000-1794502599-worker-17 Created 
+ Container soup-profile-1000-1794502599-worker-25 Created 
+ Container soup-profile-1000-1794502599-worker-13 Created 
+ Container soup-profile-1000-1794502599-worker-10 Created 
+ Container soup-profile-1000-1794502599-worker-15 Created 
+ Container soup-profile-1000-1794502599-worker-8 Created 
+ Container soup-profile-1000-1794502599-worker-1 Created 
+ Container soup-profile-1000-1794502599-worker-9 Created 
+ Container soup-profile-1000-1794502599-worker-4 Created 
+ Container soup-profile-1000-1794502599-worker-20 Created 
+ Container soup-profile-1000-1794502599-worker-6 Created 
+ Container soup-profile-1000-1794502599-api-1 Starting 
+ Container soup-profile-1000-1794502599-api-1 Started 
+ Container soup-profile-1000-1794502599-api-1 Waiting 
+ Container soup-profile-1000-1794502599-api-1 Healthy 
+ Container soup-profile-1000-1794502599-worker-20 Starting 
+ Container soup-profile-1000-1794502599-worker-20 Started 
+ Container soup-profile-1000-1794502599-worker-4 Starting 
+ Container soup-profile-1000-1794502599-worker-4 Started 
+ Container soup-profile-1000-1794502599-worker-1 Starting 
+ Container soup-profile-1000-1794502599-worker-1 Started 
+ Container soup-profile-1000-1794502599-worker-17 Starting 
+ Container soup-profile-1000-1794502599-worker-17 Started 
+ Container soup-profile-1000-1794502599-worker-13 Starting 
+ Container soup-profile-1000-1794502599-worker-13 Started 
+ Container soup-profile-1000-1794502599-worker-28 Starting 
+ Container soup-profile-1000-1794502599-worker-28 Started 
+ Container soup-profile-1000-1794502599-worker-25 Starting 
+ Container soup-profile-1000-1794502599-worker-25 Started 
+ Container soup-profile-1000-1794502599-worker-9 Starting 
+ Container soup-profile-1000-1794502599-worker-9 Started 
+ Container soup-profile-1000-1794502599-worker-22 Starting 
+ Container soup-profile-1000-1794502599-worker-22 Started 
+ Container soup-profile-1000-1794502599-worker-19 Starting 
+ Container soup-profile-1000-1794502599-worker-19 Started 
+ Container soup-profile-1000-1794502599-worker-6 Starting 
+ Container soup-profile-1000-1794502599-worker-6 Started 
+ Container soup-profile-1000-1794502599-worker-5 Starting 
+ Container soup-profile-1000-1794502599-worker-5 Started 
+ Container soup-profile-1000-1794502599-worker-15 Starting 
+ Container soup-profile-1000-1794502599-worker-15 Started 
+ Container soup-profile-1000-1794502599-worker-18 Starting 
+ Container soup-profile-1000-1794502599-worker-18 Started 
+ Container soup-profile-1000-1794502599-worker-8 Starting 
+ Container soup-profile-1000-1794502599-worker-8 Started 
+ Container soup-profile-1000-1794502599-worker-10 Starting 
+ Container soup-profile-1000-1794502599-worker-10 Started 
+ Container soup-profile-1000-1794502599-worker-24 Starting 
+ Container soup-profile-1000-1794502599-worker-24 Started 
+ Container soup-profile-1000-1794502599-worker-14 Starting 
+ Container soup-profile-1000-1794502599-worker-14 Started 
+ Container soup-profile-1000-1794502599-worker-30 Starting 
+ Container soup-profile-1000-1794502599-worker-30 Started 
+ Container soup-profile-1000-1794502599-worker-2 Starting 
+ Container soup-profile-1000-1794502599-worker-2 Started 
+ Container soup-profile-1000-1794502599-worker-21 Starting 
+ Container soup-profile-1000-1794502599-worker-21 Started 
+ Container soup-profile-1000-1794502599-worker-31 Starting 
+ Container soup-profile-1000-1794502599-worker-31 Started 
+ Container soup-profile-1000-1794502599-worker-7 Starting 
+ Container soup-profile-1000-1794502599-worker-7 Started 
+ Container soup-profile-1000-1794502599-worker-12 Starting 
+ Container soup-profile-1000-1794502599-worker-12 Started 
+ Container soup-profile-1000-1794502599-worker-11 Starting 
+ Container soup-profile-1000-1794502599-worker-11 Started 
+ Container soup-profile-1000-1794502599-worker-3 Starting 
+ Container soup-profile-1000-1794502599-worker-3 Started 
+ Container soup-profile-1000-1794502599-worker-23 Starting 
+ Container soup-profile-1000-1794502599-worker-23 Started 
+ Container soup-profile-1000-1794502599-worker-26 Starting 
+ Container soup-profile-1000-1794502599-worker-26 Started 
+ Container soup-profile-1000-1794502599-worker-29 Starting 
+ Container soup-profile-1000-1794502599-worker-29 Started 
+ Container soup-profile-1000-1794502599-worker-16 Starting 
+ Container soup-profile-1000-1794502599-worker-16 Started 
+ Container soup-profile-1000-1794502599-worker-32 Starting 
+ Container soup-profile-1000-1794502599-worker-32 Started 
+ Container soup-profile-1000-1794502599-worker-27 Starting 
+ Container soup-profile-1000-1794502599-worker-27 Started 
+ Container soup-profile-1000-1794502599-api-1 Waiting 
+ Container soup-profile-1000-1794502599-worker-20 Waiting 
+ Container soup-profile-1000-1794502599-worker-4 Waiting 
+ Container soup-profile-1000-1794502599-worker-1 Waiting 
+ Container soup-profile-1000-1794502599-worker-17 Waiting 
+ Container soup-profile-1000-1794502599-worker-13 Waiting 
+ Container soup-profile-1000-1794502599-worker-28 Waiting 
+ Container soup-profile-1000-1794502599-worker-25 Waiting 
+ Container soup-profile-1000-1794502599-worker-9 Waiting 
+ Container soup-profile-1000-1794502599-worker-22 Waiting 
+ Container soup-profile-1000-1794502599-worker-19 Waiting 
+ Container soup-profile-1000-1794502599-worker-6 Waiting 
+ Container soup-profile-1000-1794502599-worker-5 Waiting 
+ Container soup-profile-1000-1794502599-worker-15 Waiting 
+ Container soup-profile-1000-1794502599-worker-18 Waiting 
+ Container soup-profile-1000-1794502599-worker-8 Waiting 
+ Container soup-profile-1000-1794502599-worker-10 Waiting 
+ Container soup-profile-1000-1794502599-worker-24 Waiting 
+ Container soup-profile-1000-1794502599-worker-14 Waiting 
+ Container soup-profile-1000-1794502599-worker-30 Waiting 
+ Container soup-profile-1000-1794502599-worker-2 Waiting 
+ Container soup-profile-1000-1794502599-worker-21 Waiting 
+ Container soup-profile-1000-1794502599-worker-31 Waiting 
+ Container soup-profile-1000-1794502599-worker-7 Waiting 
+ Container soup-profile-1000-1794502599-worker-12 Waiting 
+ Container soup-profile-1000-1794502599-worker-11 Waiting 
+ Container soup-profile-1000-1794502599-worker-3 Waiting 
+ Container soup-profile-1000-1794502599-worker-23 Waiting 
+ Container soup-profile-1000-1794502599-worker-26 Waiting 
+ Container soup-profile-1000-1794502599-worker-29 Waiting 
+ Container soup-profile-1000-1794502599-worker-16 Waiting 
+ Container soup-profile-1000-1794502599-worker-32 Waiting 
+ Container soup-profile-1000-1794502599-worker-27 Waiting 
+ Container soup-profile-1000-1794502599-worker-20 Healthy 
+ Container soup-profile-1000-1794502599-worker-4 Healthy 
+ Container soup-profile-1000-1794502599-worker-1 Healthy 
+ Container soup-profile-1000-1794502599-worker-17 Healthy 
+ Container soup-profile-1000-1794502599-worker-13 Healthy 
+ Container soup-profile-1000-1794502599-worker-28 Healthy 
+ Container soup-profile-1000-1794502599-worker-25 Healthy 
+ Container soup-profile-1000-1794502599-worker-9 Healthy 
+ Container soup-profile-1000-1794502599-worker-22 Healthy 
+ Container soup-profile-1000-1794502599-worker-19 Healthy 
+ Container soup-profile-1000-1794502599-worker-6 Healthy 
+ Container soup-profile-1000-1794502599-worker-5 Healthy 
+ Container soup-profile-1000-1794502599-worker-15 Healthy 
+ Container soup-profile-1000-1794502599-worker-18 Healthy 
+ Container soup-profile-1000-1794502599-worker-8 Healthy 
+ Container soup-profile-1000-1794502599-worker-10 Healthy 
+ Container soup-profile-1000-1794502599-worker-24 Healthy 
+ Container soup-profile-1000-1794502599-worker-14 Healthy 
+ Container soup-profile-1000-1794502599-worker-30 Healthy 
+ Container soup-profile-1000-1794502599-api-1 Healthy 
+ Container soup-profile-1000-1794502599-worker-2 Healthy 
+ Container soup-profile-1000-1794502599-worker-21 Healthy 
+ Container soup-profile-1000-1794502599-worker-31 Healthy 
+ Container soup-profile-1000-1794502599-worker-7 Healthy 
+ Container soup-profile-1000-1794502599-worker-12 Healthy 
+ Container soup-profile-1000-1794502599-worker-11 Healthy 
+ Container soup-profile-1000-1794502599-worker-3 Healthy 
+ Container soup-profile-1000-1794502599-worker-23 Healthy 
+ Container soup-profile-1000-1794502599-worker-26 Healthy 
+ Container soup-profile-1000-1794502599-worker-29 Healthy 
+ Container soup-profile-1000-1794502599-worker-16 Healthy 
+ Container soup-profile-1000-1794502599-worker-32 Healthy 
+ Container soup-profile-1000-1794502599-worker-27 Healthy 
+NAME                                     IMAGE                       COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+soup-profile-1000-1794502599-api-1       soup-training-queue:local   "python -m uvicorn s…"   api       7 seconds ago   Up 5 seconds (healthy)   
+soup-profile-1000-1794502599-worker-1    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-10   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-11   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-12   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-13   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-14   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-15   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-16   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-17   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-18   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-19   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-2    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-20   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-21   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-22   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-23   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-24   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-25   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-26   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-27   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-28   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-29   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-3    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-30   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-31   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-32   soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up Less than a second    
+soup-profile-1000-1794502599-worker-4    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-5    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-6    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+soup-profile-1000-1794502599-worker-7    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-8    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 1 second              
+soup-profile-1000-1794502599-worker-9    soup-training-queue:local   "python -m soup_queu…"   worker    6 seconds ago   Up 2 seconds             
+Target: 1000 HTTP requests/s for 60s, workers=32, clients=48
+t=0.00s unfinished=0 queued=0 running=0 succeeded=0 cancelled=0
+t=5.01s unfinished=21 queued=1 running=20 succeeded=1981 cancelled=498
+t=10.01s unfinished=23 queued=1 running=22 succeeded=3983 cancelled=994
+t=15.03s unfinished=24 queued=2 running=22 succeeded=5986 cancelled=1490
+t=20.04s unfinished=21 queued=1 running=20 succeeded=7990 cancelled=1989
+t=25.04s unfinished=21 queued=1 running=20 succeeded=9991 cancelled=2488
+t=30.06s unfinished=23 queued=2 running=21 succeeded=11991 cancelled=2986
+t=35.08s unfinished=22 queued=1 running=21 succeeded=13993 cancelled=3485
+t=40.09s unfinished=21 queued=0 running=21 succeeded=15994 cancelled=3985
+t=45.11s unfinished=24 queued=0 running=24 succeeded=17994 cancelled=4482
+t=50.12s unfinished=22 queued=1 running=21 succeeded=19998 cancelled=4980
+t=55.15s unfinished=21 queued=1 running=20 succeeded=22001 cancelled=5478
+After all client responses: {'cancelled': 5976, 'running': 11, 'succeeded': 24013}
+Scheduled: 60000, successful: 60000
+Requests started in 60s: 59853 (997.55/s)
+Successful responses in 60s: 59851
+Successful responses/s in window: 997.52
+Errors: 0, categories: {}
+Error examples: []
+Window 0–5s: starts=4994 successes=4993 HTTP 503=0
+Window 5–10s: starts=4996 successes=4995 HTTP 503=0
+Window 10–15s: starts=4982 successes=4982 HTTP 503=0
+Window 15–20s: starts=4990 successes=4992 HTTP 503=0
+Window 20–25s: starts=4996 successes=4995 HTTP 503=0
+Window 25–30s: starts=4985 successes=4984 HTTP 503=0
+Window 30–35s: starts=4975 successes=4977 HTTP 503=0
+Window 35–40s: starts=4997 successes=4995 HTTP 503=0
+Window 40–45s: starts=4973 successes=4973 HTTP 503=0
+Window 45–50s: starts=4998 successes=5000 HTTP 503=0
+Window 50–55s: starts=4973 successes=4971 HTTP 503=0
+Window 55–60s: starts=4994 successes=4994 HTTP 503=0
+HTTP latency p95=3.3 ms, p99=22.8 ms
+Client dispatch delay p95=145.1 ms
+Operation create: total=30000 errors={} p95=5.68 ms p99=39.48 ms
+Phase create sql-connect: n=30000 p95=0.212 ms p99=0.529 ms
+Phase create sql-key-read: n=30000 p95=0.104 ms p99=0.277 ms
+Phase create sql-wait: n=30000 p95=4.574 ms p99=37.520 ms
+Phase create sql-txn: n=30000 p95=0.645 ms p99=1.234 ms
+Phase create handler: n=30000 p95=5.106 ms p99=38.336 ms
+Operation retry: total=12000 errors={} p95=1.25 ms p99=2.36 ms
+Phase retry sql-connect: n=12000 p95=0.217 ms p99=0.489 ms
+Phase retry sql-key-read: n=12000 p95=0.128 ms p99=0.344 ms
+Phase retry handler: n=12000 p95=0.370 ms p99=0.931 ms
+Operation get: total=9000 errors={} p95=1.17 ms p99=2.27 ms
+Operation cancel: total=6000 errors={} p95=5.84 ms p99=38.43 ms
+Operation list: total=3000 errors={} p95=1.61 ms p99=3.72 ms
+Drain after last response: 0.00s
+Expected keys: 30000, jobs in DB: 30000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+ Container soup-profile-1000-1794502599-worker-13 Stopping 
+ Container soup-profile-1000-1794502599-worker-2 Stopping 
+ Container soup-profile-1000-1794502599-worker-5 Stopping 
+ Container soup-profile-1000-1794502599-worker-6 Stopping 
+ Container soup-profile-1000-1794502599-worker-28 Stopping 
+ Container soup-profile-1000-1794502599-worker-8 Stopping 
+ Container soup-profile-1000-1794502599-worker-11 Stopping 
+ Container soup-profile-1000-1794502599-worker-3 Stopping 
+ Container soup-profile-1000-1794502599-worker-22 Stopping 
+ Container soup-profile-1000-1794502599-worker-10 Stopping 
+ Container soup-profile-1000-1794502599-worker-30 Stopping 
+ Container soup-profile-1000-1794502599-worker-19 Stopping 
+ Container soup-profile-1000-1794502599-worker-20 Stopping 
+ Container soup-profile-1000-1794502599-worker-31 Stopping 
+ Container soup-profile-1000-1794502599-worker-15 Stopping 
+ Container soup-profile-1000-1794502599-worker-14 Stopping 
+ Container soup-profile-1000-1794502599-worker-24 Stopping 
+ Container soup-profile-1000-1794502599-worker-16 Stopping 
+ Container soup-profile-1000-1794502599-worker-4 Stopping 
+ Container soup-profile-1000-1794502599-worker-1 Stopping 
+ Container soup-profile-1000-1794502599-worker-21 Stopping 
+ Container soup-profile-1000-1794502599-worker-27 Stopping 
+ Container soup-profile-1000-1794502599-worker-12 Stopping 
+ Container soup-profile-1000-1794502599-worker-7 Stopping 
+ Container soup-profile-1000-1794502599-worker-17 Stopping 
+ Container soup-profile-1000-1794502599-worker-32 Stopping 
+ Container soup-profile-1000-1794502599-worker-29 Stopping 
+ Container soup-profile-1000-1794502599-worker-9 Stopping 
+ Container soup-profile-1000-1794502599-worker-18 Stopping 
+ Container soup-profile-1000-1794502599-worker-25 Stopping 
+ Container soup-profile-1000-1794502599-worker-23 Stopping 
+ Container soup-profile-1000-1794502599-worker-26 Stopping 
+ Container soup-profile-1000-1794502599-worker-8 Stopped 
+ Container soup-profile-1000-1794502599-worker-8 Removing 
+ Container soup-profile-1000-1794502599-worker-8 Removed 
+ Container soup-profile-1000-1794502599-worker-26 Stopped 
+ Container soup-profile-1000-1794502599-worker-26 Removing 
+ Container soup-profile-1000-1794502599-worker-26 Removed 
+ Container soup-profile-1000-1794502599-worker-6 Stopped 
+ Container soup-profile-1000-1794502599-worker-6 Removing 
+ Container soup-profile-1000-1794502599-worker-6 Removed 
+ Container soup-profile-1000-1794502599-worker-30 Stopped 
+ Container soup-profile-1000-1794502599-worker-30 Removing 
+ Container soup-profile-1000-1794502599-worker-30 Removed 
+ Container soup-profile-1000-1794502599-worker-16 Stopped 
+ Container soup-profile-1000-1794502599-worker-16 Removing 
+ Container soup-profile-1000-1794502599-worker-16 Removed 
+ Container soup-profile-1000-1794502599-worker-1 Stopped 
+ Container soup-profile-1000-1794502599-worker-1 Removing 
+ Container soup-profile-1000-1794502599-worker-1 Removed 
+ Container soup-profile-1000-1794502599-worker-28 Stopped 
+ Container soup-profile-1000-1794502599-worker-28 Removing 
+ Container soup-profile-1000-1794502599-worker-28 Removed 
+ Container soup-profile-1000-1794502599-worker-20 Stopped 
+ Container soup-profile-1000-1794502599-worker-20 Removing 
+ Container soup-profile-1000-1794502599-worker-20 Removed 
+ Container soup-profile-1000-1794502599-worker-15 Stopped 
+ Container soup-profile-1000-1794502599-worker-15 Removing 
+ Container soup-profile-1000-1794502599-worker-15 Removed 
+ Container soup-profile-1000-1794502599-worker-11 Stopped 
+ Container soup-profile-1000-1794502599-worker-11 Removing 
+ Container soup-profile-1000-1794502599-worker-11 Removed 
+ Container soup-profile-1000-1794502599-worker-32 Stopped 
+ Container soup-profile-1000-1794502599-worker-32 Removing 
+ Container soup-profile-1000-1794502599-worker-32 Removed 
+ Container soup-profile-1000-1794502599-worker-5 Stopped 
+ Container soup-profile-1000-1794502599-worker-5 Removing 
+ Container soup-profile-1000-1794502599-worker-5 Removed 
+ Container soup-profile-1000-1794502599-worker-31 Stopped 
+ Container soup-profile-1000-1794502599-worker-31 Removing 
+ Container soup-profile-1000-1794502599-worker-31 Removed 
+ Container soup-profile-1000-1794502599-worker-24 Stopped 
+ Container soup-profile-1000-1794502599-worker-24 Removing 
+ Container soup-profile-1000-1794502599-worker-24 Removed 
+ Container soup-profile-1000-1794502599-worker-23 Stopped 
+ Container soup-profile-1000-1794502599-worker-23 Removing 
+ Container soup-profile-1000-1794502599-worker-23 Removed 
+ Container soup-profile-1000-1794502599-worker-4 Stopped 
+ Container soup-profile-1000-1794502599-worker-4 Removing 
+ Container soup-profile-1000-1794502599-worker-4 Removed 
+ Container soup-profile-1000-1794502599-worker-2 Stopped 
+ Container soup-profile-1000-1794502599-worker-2 Removing 
+ Container soup-profile-1000-1794502599-worker-2 Removed 
+ Container soup-profile-1000-1794502599-worker-14 Stopped 
+ Container soup-profile-1000-1794502599-worker-14 Removing 
+ Container soup-profile-1000-1794502599-worker-14 Removed 
+ Container soup-profile-1000-1794502599-worker-21 Stopped 
+ Container soup-profile-1000-1794502599-worker-21 Removing 
+ Container soup-profile-1000-1794502599-worker-21 Removed 
+ Container soup-profile-1000-1794502599-worker-9 Stopped 
+ Container soup-profile-1000-1794502599-worker-9 Removing 
+ Container soup-profile-1000-1794502599-worker-9 Removed 
+ Container soup-profile-1000-1794502599-worker-13 Stopped 
+ Container soup-profile-1000-1794502599-worker-13 Removing 
+ Container soup-profile-1000-1794502599-worker-13 Removed 
+ Container soup-profile-1000-1794502599-worker-17 Stopped 
+ Container soup-profile-1000-1794502599-worker-17 Removing 
+ Container soup-profile-1000-1794502599-worker-17 Removed 
+ Container soup-profile-1000-1794502599-worker-18 Stopped 
+ Container soup-profile-1000-1794502599-worker-18 Removing 
+ Container soup-profile-1000-1794502599-worker-18 Removed 
+ Container soup-profile-1000-1794502599-worker-29 Stopped 
+ Container soup-profile-1000-1794502599-worker-29 Removing 
+ Container soup-profile-1000-1794502599-worker-29 Removed 
+ Container soup-profile-1000-1794502599-worker-3 Stopped 
+ Container soup-profile-1000-1794502599-worker-3 Removing 
+ Container soup-profile-1000-1794502599-worker-3 Removed 
+ Container soup-profile-1000-1794502599-worker-12 Stopped 
+ Container soup-profile-1000-1794502599-worker-12 Removing 
+ Container soup-profile-1000-1794502599-worker-12 Removed 
+ Container soup-profile-1000-1794502599-worker-25 Stopped 
+ Container soup-profile-1000-1794502599-worker-25 Removing 
+ Container soup-profile-1000-1794502599-worker-25 Removed 
+ Container soup-profile-1000-1794502599-worker-7 Stopped 
+ Container soup-profile-1000-1794502599-worker-7 Removing 
+ Container soup-profile-1000-1794502599-worker-7 Removed 
+ Container soup-profile-1000-1794502599-worker-19 Stopped 
+ Container soup-profile-1000-1794502599-worker-19 Removing 
+ Container soup-profile-1000-1794502599-worker-19 Removed 
+ Container soup-profile-1000-1794502599-worker-22 Stopped 
+ Container soup-profile-1000-1794502599-worker-22 Removing 
+ Container soup-profile-1000-1794502599-worker-22 Removed 
+ Container soup-profile-1000-1794502599-worker-27 Stopped 
+ Container soup-profile-1000-1794502599-worker-27 Removing 
+ Container soup-profile-1000-1794502599-worker-27 Removed 
+ Container soup-profile-1000-1794502599-worker-10 Stopped 
+ Container soup-profile-1000-1794502599-worker-10 Removing 
+ Container soup-profile-1000-1794502599-worker-10 Removed 
+ Container soup-profile-1000-1794502599-api-1 Stopping 
+ Container soup-profile-1000-1794502599-api-1 Stopped 
+ Container soup-profile-1000-1794502599-api-1 Removing 
+ Container soup-profile-1000-1794502599-api-1 Removed 
+ Volume soup-profile-1000-1794502599_queue-data Removing 
+ Network soup-profile-1000-1794502599_default Removing 
+ Volume soup-profile-1000-1794502599_queue-data Removed 
+ Network soup-profile-1000-1794502599_default Removed 
+Exit code: 0

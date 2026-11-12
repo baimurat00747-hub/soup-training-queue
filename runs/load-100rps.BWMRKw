@@ -1,0 +1,38 @@
+Target: 100 HTTP requests/s for 60s, workers=4
+INFO:     Started server process [5198]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+t=0s unfinished=0
+worker started pid=5200
+worker started pid=5199
+worker started pid=5201
+worker started pid=5202
+t=5s unfinished=2
+t=10s unfinished=2
+t=15s unfinished=2
+t=20s unfinished=2
+t=25s unfinished=2
+t=30s unfinished=2
+t=35s unfinished=2
+t=40s unfinished=2
+t=45s unfinished=2
+t=50s unfinished=2
+t=55s unfinished=2
+Scheduled: 6000, successful: 6000
+Successful responses in 60s: 5999
+Successful responses/s in window: 99.98
+Errors: 0, examples: []
+HTTP latency p95=3.5 ms, p99=4.0 ms
+Client dispatch delay p95=2.5 ms
+Drain after last response: 0.20s
+Expected keys: 3000, jobs in DB: 3000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5198]
+Код выхода: 0

@@ -1,0 +1,225 @@
+Starting chaos: jobs=10000, workers=8, seed=42
+INFO:     Started server process [5310]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+worker started pid=5311
+worker started pid=5312
+worker started pid=5314
+worker started pid=5313
+worker started pid=5315
+worker started pid=5316
+worker started pid=5317
+worker started pid=5318
+SIGKILL pid=5312 exit=-9, replacement pid=5319
+worker started pid=5319
+SIGKILL pid=5311 exit=-9, replacement pid=5320
+worker started pid=5320
+SIGKILL pid=5315 exit=-9, replacement pid=5321
+worker started pid=5321
+SIGKILL pid=5314 exit=-9, replacement pid=5323
+worker started pid=5323
+SIGKILL pid=5323 exit=-9, replacement pid=5324
+worker started pid=5324
+SIGKILL pid=5313 exit=-9, replacement pid=5325
+worker started pid=5325
+SIGKILL pid=5319 exit=-9, replacement pid=5326
+worker started pid=5326
+SIGKILL pid=5326 exit=-9, replacement pid=5327
+worker started pid=5327
+SIGKILL pid=5317 exit=-9, replacement pid=5328
+worker started pid=5328
+SIGKILL pid=5320 exit=-9, replacement pid=5330
+worker started pid=5330
+SIGKILL pid=5330 exit=-9, replacement pid=5331
+worker started pid=5331
+SIGKILL pid=5327 exit=-9, replacement pid=5332
+worker started pid=5332
+SIGKILL pid=5324 exit=-9, replacement pid=5333
+worker started pid=5333
+SIGKILL pid=5333 exit=-9, replacement pid=5334
+worker started pid=5334
+SIGKILL pid=5331 exit=-9, replacement pid=5335
+worker started pid=5335
+SIGKILL pid=5334 exit=-9, replacement pid=5336
+worker started pid=5336
+SIGKILL pid=5328 exit=-9, replacement pid=5337
+worker started pid=5337
+SIGKILL pid=5336 exit=-9, replacement pid=5338
+worker started pid=5338
+SIGKILL pid=5318 exit=-9, replacement pid=5339
+worker started pid=5339
+SIGKILL pid=5321 exit=-9, replacement pid=5340
+worker started pid=5340
+SIGKILL pid=5335 exit=-9, replacement pid=5341
+worker started pid=5341
+SIGKILL pid=5325 exit=-9, replacement pid=5342
+worker started pid=5342
+SIGKILL pid=5337 exit=-9, replacement pid=5343
+worker started pid=5343
+SIGKILL pid=5316 exit=-9, replacement pid=5344
+worker started pid=5344
+SIGKILL pid=5340 exit=-9, replacement pid=5346
+worker started pid=5346
+SIGKILL pid=5342 exit=-9, replacement pid=5347
+worker started pid=5347
+SIGKILL pid=5338 exit=-9, replacement pid=5348
+worker started pid=5348
+SIGKILL pid=5344 exit=-9, replacement pid=5349
+worker started pid=5349
+SIGKILL pid=5332 exit=-9, replacement pid=5350
+worker started pid=5350
+SIGKILL pid=5350 exit=-9, replacement pid=5351
+worker started pid=5351
+SIGKILL pid=5343 exit=-9, replacement pid=5353
+worker started pid=5353
+SIGKILL pid=5351 exit=-9, replacement pid=5355
+worker started pid=5355
+SIGKILL pid=5349 exit=-9, replacement pid=5356
+worker started pid=5356
+SIGKILL pid=5356 exit=-9, replacement pid=5357
+worker started pid=5357
+SIGKILL pid=5346 exit=-9, replacement pid=5358
+worker started pid=5358
+SIGKILL pid=5341 exit=-9, replacement pid=5359
+worker started pid=5359
+SIGKILL pid=5339 exit=-9, replacement pid=5360
+worker started pid=5360
+SIGKILL pid=5355 exit=-9, replacement pid=5361
+worker started pid=5361
+SIGKILL pid=5353 exit=-9, replacement pid=5362
+worker started pid=5362
+SIGKILL pid=5361 exit=-9, replacement pid=5364
+worker started pid=5364
+SIGKILL pid=5358 exit=-9, replacement pid=5366
+worker started pid=5366
+SIGKILL pid=5357 exit=-9, replacement pid=5367
+worker started pid=5367
+SIGKILL pid=5348 exit=-9, replacement pid=5368
+worker started pid=5368
+SIGKILL pid=5364 exit=-9, replacement pid=5369
+worker started pid=5369
+SIGKILL pid=5359 exit=-9, replacement pid=5370
+worker started pid=5370
+SIGKILL pid=5368 exit=-9, replacement pid=5371
+worker started pid=5371
+SIGKILL pid=5366 exit=-9, replacement pid=5372
+worker started pid=5372
+SIGKILL pid=5369 exit=-9, replacement pid=5373
+worker started pid=5373
+SIGKILL pid=5371 exit=-9, replacement pid=5374
+worker started pid=5374
+SIGKILL pid=5373 exit=-9, replacement pid=5375
+worker started pid=5375
+SIGKILL pid=5362 exit=-9, replacement pid=5376
+worker started pid=5376
+SIGKILL pid=5372 exit=-9, replacement pid=5377
+worker started pid=5377
+SIGKILL pid=5360 exit=-9, replacement pid=5378
+worker started pid=5378
+SIGKILL pid=5367 exit=-9, replacement pid=5379
+worker started pid=5379
+SIGKILL pid=5347 exit=-9, replacement pid=5381
+worker started pid=5381
+SIGKILL pid=5379 exit=-9, replacement pid=5382
+worker started pid=5382
+SIGKILL pid=5382 exit=-9, replacement pid=5383
+worker started pid=5383
+SIGKILL pid=5374 exit=-9, replacement pid=5384
+worker started pid=5384
+SIGKILL pid=5377 exit=-9, replacement pid=5385
+worker started pid=5385
+SIGKILL pid=5375 exit=-9, replacement pid=5386
+worker started pid=5386
+SIGKILL pid=5381 exit=-9, replacement pid=5387
+worker started pid=5387
+SIGKILL pid=5384 exit=-9, replacement pid=5388
+worker started pid=5388
+SIGKILL pid=5387 exit=-9, replacement pid=5389
+worker started pid=5389
+SIGKILL pid=5378 exit=-9, replacement pid=5390
+worker started pid=5390
+SIGKILL pid=5376 exit=-9, replacement pid=5391
+worker started pid=5391
+SIGKILL pid=5385 exit=-9, replacement pid=5392
+worker started pid=5392
+SIGKILL pid=5388 exit=-9, replacement pid=5393
+worker started pid=5393
+SIGKILL pid=5383 exit=-9, replacement pid=5394
+worker started pid=5394
+SIGKILL pid=5370 exit=-9, replacement pid=5395
+worker started pid=5395
+SIGKILL pid=5393 exit=-9, replacement pid=5398
+worker started pid=5398
+SIGKILL pid=5395 exit=-9, replacement pid=5399
+worker started pid=5399
+SIGKILL pid=5394 exit=-9, replacement pid=5400
+worker started pid=5400
+SIGKILL pid=5391 exit=-9, replacement pid=5401
+worker started pid=5401
+SIGKILL pid=5392 exit=-9, replacement pid=5402
+worker started pid=5402
+SIGKILL pid=5386 exit=-9, replacement pid=5403
+worker started pid=5403
+SIGKILL pid=5398 exit=-9, replacement pid=5404
+worker started pid=5404
+SIGKILL pid=5400 exit=-9, replacement pid=5405
+worker started pid=5405
+SIGKILL pid=5404 exit=-9, replacement pid=5406
+worker started pid=5406
+SIGKILL pid=5390 exit=-9, replacement pid=5407
+worker started pid=5407
+SIGKILL pid=5401 exit=-9, replacement pid=5408
+worker started pid=5408
+SIGKILL pid=5407 exit=-9, replacement pid=5409
+worker started pid=5409
+SIGKILL pid=5389 exit=-9, replacement pid=5410
+worker started pid=5410
+SIGKILL pid=5402 exit=-9, replacement pid=5411
+worker started pid=5411
+SIGKILL pid=5410 exit=-9, replacement pid=5412
+worker started pid=5412
+SIGKILL pid=5406 exit=-9, replacement pid=5416
+worker started pid=5416
+SIGKILL pid=5411 exit=-9, replacement pid=5417
+worker started pid=5417
+SIGKILL pid=5408 exit=-9, replacement pid=5418
+worker started pid=5418
+SIGKILL pid=5418 exit=-9, replacement pid=5419
+worker started pid=5419
+SIGKILL pid=5405 exit=-9, replacement pid=5420
+worker started pid=5420
+SIGKILL pid=5416 exit=-9, replacement pid=5421
+worker started pid=5421
+SIGKILL pid=5412 exit=-9, replacement pid=5431
+worker started pid=5431
+SIGKILL pid=5409 exit=-9, replacement pid=5432
+worker started pid=5432
+SIGKILL pid=5403 exit=-9, replacement pid=5433
+worker started pid=5433
+SIGKILL pid=5399 exit=-9, replacement pid=5434
+worker started pid=5434
+SIGKILL pid=5433 exit=-9, replacement pid=5435
+worker started pid=5435
+SIGKILL pid=5431 exit=-9, replacement pid=5436
+worker started pid=5436
+SIGKILL pid=5436 exit=-9, replacement pid=5437
+worker started pid=5437
+SIGKILL pid=5419 exit=-9, replacement pid=5438
+worker started pid=5438
+SIGKILL pid=5435 exit=-9, replacement pid=5439
+worker started pid=5439
+HTTP scenarios completed: 10000
+Worker kills: 99
+Expected keys: 10000, jobs in DB: 10000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5310]
+Final state counts: [('cancelled', 2500), ('failed', 441), ('succeeded', 7059)]
+Jobs claimed more than once: 66
+Код выхода прогона: 0

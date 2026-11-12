@@ -1,0 +1,8 @@
+SQLite: 3.54.0
+before plan: ['CO-ROUTINE (subquery-2)', 'COMPOUND QUERY', 'LEFT-MOST SUBQUERY', 'SEARCH jobs USING COVERING INDEX queued_jobs', 'UNION ALL', 'SEARCH jobs', 'SEARCH (subquery-2)']
+after plan: ['CO-ROUTINE (subquery-2)', 'COMPOUND QUERY', 'LEFT-MOST SUBQUERY', 'SEARCH jobs USING COVERING INDEX queued_jobs', 'UNION ALL', 'SEARCH jobs USING COVERING INDEX leased_jobs (lease_until_ms<?)', 'SEARCH (subquery-2)']
+no expired lease: before, median=1.57033 ms, result=None
+no expired lease: after, median=0.00067 ms, result=None
+10000 expired leases with low ids: before, median=0.00067 ms, result=1
+10000 expired leases with low ids: after, median=0.17579 ms, result=1
+Exit code: 0

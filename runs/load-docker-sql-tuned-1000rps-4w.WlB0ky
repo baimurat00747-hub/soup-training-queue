@@ -1,0 +1,148 @@
+ Image soup-training-queue:local Building 
+ Image soup-training-queue:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.01kB done
+#1 DONE 0.0s
+
+#2 [worker internal] load build definition from Dockerfile
+#2 transferring dockerfile: 227B done
+#2 DONE 0.0s
+
+#3 [worker internal] load metadata for docker.io/library/python:3.12-slim
+#3 DONE 1.3s
+
+#4 [api internal] load .dockerignore
+#4 transferring context: 82B done
+#4 DONE 0.0s
+
+#5 [worker internal] load build context
+#5 transferring context: 222B done
+#5 DONE 0.0s
+
+#6 [api 1/5] FROM docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+#6 resolve docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b done
+#6 DONE 0.0s
+
+#7 [api 2/5] WORKDIR /app
+#7 CACHED
+
+#8 [api 3/5] COPY requirements.txt .
+#8 CACHED
+
+#9 [api 4/5] RUN pip install --no-cache-dir -r requirements.txt
+#9 CACHED
+
+#10 [api 5/5] COPY soup_queue ./soup_queue
+#10 CACHED
+
+#11 [worker] exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:940a185636f623e4d34e8aca8ebde40cf9d6b94f3277f01979f778ec2a5b3fd6 done
+#11 exporting config sha256:74888d969fa3ed166e8e1e78e65985100665977eb5841df670476c9993ba4415 done
+#11 exporting attestation manifest sha256:9a0cc11dbac2ed395cb03ae4cd43359c9edab93973b557d4784389443e38d9de done
+#11 exporting manifest list sha256:88ff45ff9e6dcff2837280c68e61b9295dd9df05e12553820115e71fbb10c9c6 done
+#11 naming to docker.io/library/soup-training-queue:local done
+#11 unpacking to docker.io/library/soup-training-queue:local done
+#11 DONE 0.0s
+
+#12 [api] exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:3e24e2aceb4edc9636739cd3c6bd1fce93f7ac388a05d127baa7690cbbadd49c done
+#12 exporting config sha256:319e28140ac3748cc4225f6ebb893c2af80a33076f755f64cd1dccd699351126 done
+#12 exporting attestation manifest sha256:1a3db79d2977cf9a991cd0afdf84e8be7f4c5a17dcdb12c799735de4388fe993 done
+#12 exporting manifest list sha256:998a39ae52e07dea1f4afc97fd100af521363584198b0049b4f121c3089e34bc done
+#12 naming to docker.io/library/soup-training-queue:local done
+#12 unpacking to docker.io/library/soup-training-queue:local done
+#12 DONE 0.0s
+
+#13 [worker] resolving provenance for metadata file
+#13 DONE 0.0s
+
+#14 [api] resolving provenance for metadata file
+#14 DONE 0.0s
+ Image soup-training-queue:local Built 
+ Image soup-training-queue:local Built 
+ Network soup-tuned-1000-4-1794497442_default Creating 
+ Network soup-tuned-1000-4-1794497442_default Created 
+ Volume soup-tuned-1000-4-1794497442_queue-data Creating 
+ Volume soup-tuned-1000-4-1794497442_queue-data Created 
+ Container soup-tuned-1000-4-1794497442-api-1 Creating 
+ Container soup-tuned-1000-4-1794497442-api-1 Created 
+ Container soup-tuned-1000-4-1794497442-worker-4 Creating 
+ Container soup-tuned-1000-4-1794497442-worker-1 Creating 
+ Container soup-tuned-1000-4-1794497442-worker-2 Creating 
+ Container soup-tuned-1000-4-1794497442-worker-3 Creating 
+ Container soup-tuned-1000-4-1794497442-worker-4 Created 
+ Container soup-tuned-1000-4-1794497442-worker-2 Created 
+ Container soup-tuned-1000-4-1794497442-worker-3 Created 
+ Container soup-tuned-1000-4-1794497442-worker-1 Created 
+ Container soup-tuned-1000-4-1794497442-api-1 Starting 
+ Container soup-tuned-1000-4-1794497442-api-1 Started 
+ Container soup-tuned-1000-4-1794497442-api-1 Waiting 
+ Container soup-tuned-1000-4-1794497442-api-1 Healthy 
+ Container soup-tuned-1000-4-1794497442-worker-1 Starting 
+ Container soup-tuned-1000-4-1794497442-worker-1 Started 
+ Container soup-tuned-1000-4-1794497442-worker-4 Starting 
+ Container soup-tuned-1000-4-1794497442-worker-4 Started 
+ Container soup-tuned-1000-4-1794497442-worker-3 Starting 
+ Container soup-tuned-1000-4-1794497442-worker-3 Started 
+ Container soup-tuned-1000-4-1794497442-worker-2 Starting 
+ Container soup-tuned-1000-4-1794497442-worker-2 Started 
+ Container soup-tuned-1000-4-1794497442-api-1 Waiting 
+ Container soup-tuned-1000-4-1794497442-worker-1 Waiting 
+ Container soup-tuned-1000-4-1794497442-worker-4 Waiting 
+ Container soup-tuned-1000-4-1794497442-worker-3 Waiting 
+ Container soup-tuned-1000-4-1794497442-worker-2 Waiting 
+ Container soup-tuned-1000-4-1794497442-worker-1 Healthy 
+ Container soup-tuned-1000-4-1794497442-worker-4 Healthy 
+ Container soup-tuned-1000-4-1794497442-worker-3 Healthy 
+ Container soup-tuned-1000-4-1794497442-worker-2 Healthy 
+ Container soup-tuned-1000-4-1794497442-api-1 Healthy 
+Running Compose workers:        4
+Target: 1000 HTTP requests/s for 15s, workers=4, clients=48
+t=0.00s unfinished=0 queued=0 running=0 succeeded=0 cancelled=0
+t=5.01s unfinished=1619 queued=1615 running=4 succeeded=380 cancelled=500
+t=10.01s unfinished=3232 queued=3228 running=4 succeeded=768 cancelled=1000
+After all client responses: {'cancelled': 1500, 'queued': 4842, 'running': 4, 'succeeded': 1154}
+Scheduled: 15000, successful: 15000
+Requests started in 15s: 14978 (998.53/s)
+Successful responses in 15s: 14976
+Successful responses/s in window: 998.40
+Errors: 0, categories: {}
+Error examples: []
+Window 0–5s: starts=4991 successes=4990 HTTP 503=0
+Window 5–10s: starts=4995 successes=4996 HTTP 503=0
+Window 10–15s: starts=4992 successes=4990 HTTP 503=0
+HTTP latency p95=2.8 ms, p99=7.1 ms
+Client dispatch delay p95=21.1 ms
+Drain after last response: 64.14s
+Expected keys: 7500, jobs in DB: 7500
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+ Container soup-tuned-1000-4-1794497442-worker-2 Stopping 
+ Container soup-tuned-1000-4-1794497442-worker-4 Stopping 
+ Container soup-tuned-1000-4-1794497442-worker-3 Stopping 
+ Container soup-tuned-1000-4-1794497442-worker-1 Stopping 
+ Container soup-tuned-1000-4-1794497442-worker-1 Stopped 
+ Container soup-tuned-1000-4-1794497442-worker-1 Removing 
+ Container soup-tuned-1000-4-1794497442-worker-1 Removed 
+ Container soup-tuned-1000-4-1794497442-worker-4 Stopped 
+ Container soup-tuned-1000-4-1794497442-worker-4 Removing 
+ Container soup-tuned-1000-4-1794497442-worker-4 Removed 
+ Container soup-tuned-1000-4-1794497442-worker-3 Stopped 
+ Container soup-tuned-1000-4-1794497442-worker-3 Removing 
+ Container soup-tuned-1000-4-1794497442-worker-3 Removed 
+ Container soup-tuned-1000-4-1794497442-worker-2 Stopped 
+ Container soup-tuned-1000-4-1794497442-worker-2 Removing 
+ Container soup-tuned-1000-4-1794497442-worker-2 Removed 
+ Container soup-tuned-1000-4-1794497442-api-1 Stopping 
+ Container soup-tuned-1000-4-1794497442-api-1 Stopped 
+ Container soup-tuned-1000-4-1794497442-api-1 Removing 
+ Container soup-tuned-1000-4-1794497442-api-1 Removed 
+ Network soup-tuned-1000-4-1794497442_default Removing 
+ Volume soup-tuned-1000-4-1794497442_queue-data Removing 
+ Volume soup-tuned-1000-4-1794497442_queue-data Removed 
+ Network soup-tuned-1000-4-1794497442_default Removed 
+Exit code: 0

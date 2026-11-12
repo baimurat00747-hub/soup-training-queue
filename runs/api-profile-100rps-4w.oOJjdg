@@ -1,0 +1,187 @@
+ Image soup-training-queue:local Building 
+ Image soup-training-queue:local Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.01kB done
+#1 DONE 0.0s
+
+#2 [api internal] load build definition from Dockerfile
+#2 transferring dockerfile: 227B done
+#2 DONE 0.0s
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [api internal] load metadata for docker.io/library/python:3.12-slim
+#4 DONE 1.3s
+
+#5 [worker internal] load .dockerignore
+#5 transferring context: 82B done
+#5 DONE 0.0s
+
+#6 [api internal] load build context
+#6 transferring context: 11.21kB done
+#6 DONE 0.0s
+
+#7 [api 1/5] FROM docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b
+#7 resolve docker.io/library/python:3.12-slim@sha256:5e2bdb1b0d542d5039cffb8181c65930093949194a65c365dfb1b0fe13a4fa5b done
+#7 DONE 0.0s
+
+#8 [api 2/5] WORKDIR /app
+#8 CACHED
+
+#9 [api 3/5] COPY requirements.txt .
+#9 CACHED
+
+#10 [api 4/5] RUN pip install --no-cache-dir -r requirements.txt
+#10 CACHED
+
+#11 [api 5/5] COPY soup_queue ./soup_queue
+#11 DONE 0.0s
+
+#12 [api] exporting to image
+#12 exporting layers 0.0s done
+#12 exporting manifest sha256:eaa3bbe69f9329adce2ec2d831250daa5502046a3770685a86f6a4cf588b9e1a done
+#12 exporting config sha256:41b7204963a26611405fca15edcbb66c95a0b10f3031565465d9a26a984cf559 done
+#12 exporting attestation manifest sha256:b95045da0bf6c103450f1c4fdfd2d817d8c95d7d213630178a8095b5f5507943 0.0s done
+#12 exporting manifest list sha256:05f96ad50b1ca4507243ae2e5d6425dfa24107a6e614d12ed00004823bf120f5 done
+#12 naming to docker.io/library/soup-training-queue:local done
+#12 unpacking to docker.io/library/soup-training-queue:local done
+#12 DONE 0.1s
+
+#13 [worker] exporting to image
+#13 exporting layers 0.0s done
+#13 exporting manifest sha256:2dad44cdbd5d381a579ac8d4c15a822f5fa95b2adb177bc1e0921ebf5169cf58 done
+#13 exporting config sha256:032c5afa010f1e6971667d8715ef5c170e154d3b425a1685e0dcdad610b47e04 done
+#13 exporting attestation manifest sha256:329530c92158b7a6104d916833894f278bd709dfbb8fc0ebda592ff40931322d done
+#13 exporting manifest list sha256:4454df8e9b32f7e81e72879bb22b61d1122424c88635bffe1182c33f542eca67 done
+#13 naming to docker.io/library/soup-training-queue:local done
+#13 unpacking to docker.io/library/soup-training-queue:local done
+#13 DONE 0.1s
+
+#14 [api] resolving provenance for metadata file
+#14 DONE 0.0s
+
+#15 [worker] resolving provenance for metadata file
+#15 DONE 0.0s
+ Image soup-training-queue:local Built 
+ Image soup-training-queue:local Built 
+ Network soup-profile-100-1794502532_default Creating 
+ Network soup-profile-100-1794502532_default Created 
+ Volume soup-profile-100-1794502532_queue-data Creating 
+ Volume soup-profile-100-1794502532_queue-data Created 
+ Container soup-profile-100-1794502532-api-1 Creating 
+ Container soup-profile-100-1794502532-api-1 Created 
+ Container soup-profile-100-1794502532-worker-1 Creating 
+ Container soup-profile-100-1794502532-worker-4 Creating 
+ Container soup-profile-100-1794502532-worker-2 Creating 
+ Container soup-profile-100-1794502532-worker-3 Creating 
+ Container soup-profile-100-1794502532-worker-3 Created 
+ Container soup-profile-100-1794502532-worker-4 Created 
+ Container soup-profile-100-1794502532-worker-1 Created 
+ Container soup-profile-100-1794502532-worker-2 Created 
+ Container soup-profile-100-1794502532-api-1 Starting 
+ Container soup-profile-100-1794502532-api-1 Started 
+ Container soup-profile-100-1794502532-api-1 Waiting 
+ Container soup-profile-100-1794502532-api-1 Healthy 
+ Container soup-profile-100-1794502532-worker-4 Starting 
+ Container soup-profile-100-1794502532-worker-4 Started 
+ Container soup-profile-100-1794502532-worker-3 Starting 
+ Container soup-profile-100-1794502532-worker-3 Started 
+ Container soup-profile-100-1794502532-worker-1 Starting 
+ Container soup-profile-100-1794502532-worker-1 Started 
+ Container soup-profile-100-1794502532-worker-2 Starting 
+ Container soup-profile-100-1794502532-worker-2 Started 
+ Container soup-profile-100-1794502532-worker-4 Waiting 
+ Container soup-profile-100-1794502532-worker-3 Waiting 
+ Container soup-profile-100-1794502532-worker-1 Waiting 
+ Container soup-profile-100-1794502532-worker-2 Waiting 
+ Container soup-profile-100-1794502532-api-1 Waiting 
+ Container soup-profile-100-1794502532-worker-4 Healthy 
+ Container soup-profile-100-1794502532-worker-3 Healthy 
+ Container soup-profile-100-1794502532-worker-1 Healthy 
+ Container soup-profile-100-1794502532-worker-2 Healthy 
+ Container soup-profile-100-1794502532-api-1 Healthy 
+NAME                                   IMAGE                       COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+soup-profile-100-1794502532-api-1      soup-training-queue:local   "python -m uvicorn s…"   api       4 seconds ago   Up 3 seconds (healthy)   
+soup-profile-100-1794502532-worker-1   soup-training-queue:local   "python -m soup_queu…"   worker    4 seconds ago   Up Less than a second    
+soup-profile-100-1794502532-worker-2   soup-training-queue:local   "python -m soup_queu…"   worker    4 seconds ago   Up Less than a second    
+soup-profile-100-1794502532-worker-3   soup-training-queue:local   "python -m soup_queu…"   worker    4 seconds ago   Up Less than a second    
+soup-profile-100-1794502532-worker-4   soup-training-queue:local   "python -m soup_queu…"   worker    4 seconds ago   Up Less than a second    
+Target: 100 HTTP requests/s for 60s, workers=4, clients=16
+t=0.00s unfinished=0 queued=0 running=0 succeeded=0 cancelled=0
+t=5.00s unfinished=2 queued=0 running=2 succeeded=198 cancelled=50
+t=10.00s unfinished=2 queued=1 running=1 succeeded=398 cancelled=100
+t=15.00s unfinished=2 queued=0 running=2 succeeded=598 cancelled=150
+t=20.00s unfinished=2 queued=0 running=2 succeeded=798 cancelled=200
+t=25.00s unfinished=2 queued=0 running=2 succeeded=998 cancelled=250
+t=30.00s unfinished=2 queued=1 running=1 succeeded=1198 cancelled=300
+t=35.00s unfinished=2 queued=0 running=2 succeeded=1398 cancelled=350
+t=40.00s unfinished=2 queued=0 running=2 succeeded=1598 cancelled=400
+t=45.00s unfinished=2 queued=0 running=2 succeeded=1798 cancelled=450
+t=50.00s unfinished=2 queued=0 running=2 succeeded=1998 cancelled=500
+t=55.00s unfinished=3 queued=0 running=3 succeeded=2197 cancelled=550
+After all client responses: {'cancelled': 600, 'running': 2, 'succeeded': 2398}
+Scheduled: 6000, successful: 6000
+Requests started in 60s: 6000 (100.00/s)
+Successful responses in 60s: 6000
+Successful responses/s in window: 100.00
+Errors: 0, categories: {}
+Error examples: []
+Window 0–5s: starts=500 successes=500 HTTP 503=0
+Window 5–10s: starts=500 successes=500 HTTP 503=0
+Window 10–15s: starts=500 successes=500 HTTP 503=0
+Window 15–20s: starts=500 successes=500 HTTP 503=0
+Window 20–25s: starts=500 successes=500 HTTP 503=0
+Window 25–30s: starts=500 successes=500 HTTP 503=0
+Window 30–35s: starts=500 successes=500 HTTP 503=0
+Window 35–40s: starts=500 successes=500 HTTP 503=0
+Window 40–45s: starts=500 successes=500 HTTP 503=0
+Window 45–50s: starts=500 successes=500 HTTP 503=0
+Window 50–55s: starts=500 successes=500 HTTP 503=0
+Window 55–60s: starts=500 successes=500 HTTP 503=0
+HTTP latency p95=4.2 ms, p99=5.3 ms
+Client dispatch delay p95=1.5 ms
+Operation create: total=3000 errors={} p95=4.46 ms p99=5.78 ms
+Phase create sql-connect: n=3000 p95=0.399 ms p99=0.472 ms
+Phase create sql-key-read: n=3000 p95=0.043 ms p99=0.063 ms
+Phase create sql-wait: n=3000 p95=0.011 ms p99=1.954 ms
+Phase create sql-txn: n=3000 p95=1.373 ms p99=1.784 ms
+Phase create handler: n=3000 p95=2.040 ms p99=3.370 ms
+Operation retry: total=1200 errors={} p95=3.01 ms p99=3.56 ms
+Phase retry sql-connect: n=1200 p95=0.413 ms p99=0.519 ms
+Phase retry sql-key-read: n=1200 p95=0.051 ms p99=0.072 ms
+Phase retry handler: n=1200 p95=0.551 ms p99=0.684 ms
+Operation get: total=900 errors={} p95=2.94 ms p99=3.47 ms
+Operation cancel: total=600 errors={} p95=4.41 ms p99=5.97 ms
+Operation list: total=300 errors={} p95=2.67 ms p99=3.22 ms
+Drain after last response: 0.20s
+Expected keys: 3000, jobs in DB: 3000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+ Container soup-profile-100-1794502532-worker-2 Stopping 
+ Container soup-profile-100-1794502532-worker-3 Stopping 
+ Container soup-profile-100-1794502532-worker-1 Stopping 
+ Container soup-profile-100-1794502532-worker-4 Stopping 
+ Container soup-profile-100-1794502532-worker-3 Stopped 
+ Container soup-profile-100-1794502532-worker-3 Removing 
+ Container soup-profile-100-1794502532-worker-3 Removed 
+ Container soup-profile-100-1794502532-worker-2 Stopped 
+ Container soup-profile-100-1794502532-worker-2 Removing 
+ Container soup-profile-100-1794502532-worker-2 Removed 
+ Container soup-profile-100-1794502532-worker-1 Stopped 
+ Container soup-profile-100-1794502532-worker-1 Removing 
+ Container soup-profile-100-1794502532-worker-1 Removed 
+ Container soup-profile-100-1794502532-worker-4 Stopped 
+ Container soup-profile-100-1794502532-worker-4 Removing 
+ Container soup-profile-100-1794502532-worker-4 Removed 
+ Container soup-profile-100-1794502532-api-1 Stopping 
+ Container soup-profile-100-1794502532-api-1 Stopped 
+ Container soup-profile-100-1794502532-api-1 Removing 
+ Container soup-profile-100-1794502532-api-1 Removed 
+ Network soup-profile-100-1794502532_default Removing 
+ Volume soup-profile-100-1794502532_queue-data Removing 
+ Volume soup-profile-100-1794502532_queue-data Removed 
+ Network soup-profile-100-1794502532_default Removed 
+Exit code: 0

@@ -1,0 +1,9 @@
+services:
+  api:
+    ports: !reset []
+    environment:
+      QUEUE_SQL_TIMING: "1"
+      LOAD_BASE_URL: http://127.0.0.1:8000
+    volumes:
+      - ./load_test.py:/app/load_test.py:ro
+      - ./chaos.py:/app/chaos.py:ro

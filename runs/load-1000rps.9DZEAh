@@ -1,0 +1,100 @@
+Host: Darwin arm64
+29.6.1
+Docker Compose project: soup-stress-1794494026
+ Network soup-stress-1794494026_default Creating 
+ Network soup-stress-1794494026_default Created 
+ Volume soup-stress-1794494026_queue-data Creating 
+ Volume soup-stress-1794494026_queue-data Created 
+ Container soup-stress-1794494026-api-1 Creating 
+ Container soup-stress-1794494026-api-1 Created 
+ Container soup-stress-1794494026-worker-4 Creating 
+ Container soup-stress-1794494026-worker-1 Creating 
+ Container soup-stress-1794494026-worker-3 Creating 
+ Container soup-stress-1794494026-worker-2 Creating 
+ Container soup-stress-1794494026-worker-1 Created 
+ Container soup-stress-1794494026-worker-4 Created 
+ Container soup-stress-1794494026-worker-2 Created 
+ Container soup-stress-1794494026-worker-3 Created 
+ Container soup-stress-1794494026-api-1 Starting 
+ Container soup-stress-1794494026-api-1 Started 
+ Container soup-stress-1794494026-api-1 Waiting 
+ Container soup-stress-1794494026-api-1 Healthy 
+ Container soup-stress-1794494026-worker-3 Starting 
+ Container soup-stress-1794494026-worker-3 Started 
+ Container soup-stress-1794494026-worker-2 Starting 
+ Container soup-stress-1794494026-worker-2 Started 
+ Container soup-stress-1794494026-worker-1 Starting 
+ Container soup-stress-1794494026-worker-1 Started 
+ Container soup-stress-1794494026-worker-4 Starting 
+ Container soup-stress-1794494026-worker-4 Started 
+ Container soup-stress-1794494026-api-1 Waiting 
+ Container soup-stress-1794494026-worker-3 Waiting 
+ Container soup-stress-1794494026-worker-2 Waiting 
+ Container soup-stress-1794494026-worker-1 Waiting 
+ Container soup-stress-1794494026-worker-4 Waiting 
+ Container soup-stress-1794494026-worker-3 Healthy 
+ Container soup-stress-1794494026-worker-2 Healthy 
+ Container soup-stress-1794494026-worker-1 Healthy 
+ Container soup-stress-1794494026-worker-4 Healthy 
+ Container soup-stress-1794494026-api-1 Healthy 
+NAME                              IMAGE                       COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+soup-stress-1794494026-api-1      soup-training-queue:local   "python -m uvicorn s…"   api       3 seconds ago   Up 3 seconds (healthy)   
+soup-stress-1794494026-worker-1   soup-training-queue:local   "python -m soup_queu…"   worker    3 seconds ago   Up Less than a second    
+soup-stress-1794494026-worker-2   soup-training-queue:local   "python -m soup_queu…"   worker    3 seconds ago   Up Less than a second    
+soup-stress-1794494026-worker-3   soup-training-queue:local   "python -m soup_queu…"   worker    3 seconds ago   Up Less than a second    
+soup-stress-1794494026-worker-4   soup-training-queue:local   "python -m soup_queu…"   worker    3 seconds ago   Up Less than a second    
+Target: 1000 HTTP requests/s for 15s, workers=4, clients=48
+t=0.00s unfinished=0 queued=0 running=0 succeeded=0 cancelled=0
+t=5.27s unfinished=1613 queued=1609 running=4 succeeded=383 cancelled=499
+t=10.38s unfinished=3440 queued=3436 running=4 succeeded=554 cancelled=999
+After all client responses: {'cancelled': 1500, 'queued': 5071, 'running': 4, 'succeeded': 924}
+Scheduled: 15000, successful: 14998
+Requests started in 15s: 14613 (974.20/s)
+Successful responses in 15s: 14611
+Successful responses/s in window: 974.07
+Errors: 2, categories: {'HTTP 503': 1, 'not dispatched': 1}
+Error examples: ["create load-2519: <HTTPError 503: 'Service Unavailable'>", 'get load-2519: RuntimeError(\'create failed: (\\\'HTTP 503\\\', "create load-2519: <HTTPError 503: \\\'Service Unavailable\\\'>")\')']
+Window 0–5s: starts=4991 successes=4990 HTTP 503=0
+Window 5–10s: starts=4632 successes=4629 HTTP 503=1
+Window 10–15s: starts=4990 successes=4992 HTTP 503=0
+HTTP latency p95=22.2 ms, p99=137.9 ms
+Client dispatch delay p95=844.1 ms
+Drain after last response: 67.90s
+Expected keys: 7500, jobs in DB: 7499
+Missing: 1, examples: ['load-2519']
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+Traceback (most recent call last):
+  File "/app/load_test.py", line 191, in <module>
+    run(Path(os.environ["QUEUE_DB"]), base_url=base_url, **vars(args))
+  File "/app/load_test.py", line 173, in run
+    verify(db_path, expected_keys)
+  File "/app/chaos.py", line 43, in verify
+    raise AssertionError("Queue invariants failed")
+AssertionError: Queue invariants failed
+ Container soup-stress-1794494026-worker-4 Stopping 
+ Container soup-stress-1794494026-worker-3 Stopping 
+ Container soup-stress-1794494026-worker-1 Stopping 
+ Container soup-stress-1794494026-worker-2 Stopping 
+ Container soup-stress-1794494026-worker-3 Stopped 
+ Container soup-stress-1794494026-worker-3 Removing 
+ Container soup-stress-1794494026-worker-3 Removed 
+ Container soup-stress-1794494026-worker-4 Stopped 
+ Container soup-stress-1794494026-worker-4 Removing 
+ Container soup-stress-1794494026-worker-4 Removed 
+ Container soup-stress-1794494026-worker-2 Stopped 
+ Container soup-stress-1794494026-worker-2 Removing 
+ Container soup-stress-1794494026-worker-2 Removed 
+ Container soup-stress-1794494026-worker-1 Stopped 
+ Container soup-stress-1794494026-worker-1 Removing 
+ Container soup-stress-1794494026-worker-1 Removed 
+ Container soup-stress-1794494026-api-1 Stopping 
+ Container soup-stress-1794494026-api-1 Stopped 
+ Container soup-stress-1794494026-api-1 Removing 
+ Container soup-stress-1794494026-api-1 Removed 
+ Network soup-stress-1794494026_default Removing 
+ Volume soup-stress-1794494026_queue-data Removing 
+ Volume soup-stress-1794494026_queue-data Removed 
+ Network soup-stress-1794494026_default Removed 
+Exit code: 1

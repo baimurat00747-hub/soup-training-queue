@@ -1,0 +1,32 @@
+Starting chaos: jobs=400, workers=8, seed=42
+INFO:     Started server process [98016]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+worker started pid=98018
+worker started pid=98017
+worker started pid=98019
+worker started pid=98020
+worker started pid=98021
+worker started pid=98022
+worker started pid=98023
+worker started pid=98024
+SIGKILL pid=98018 exit=-9, replacement pid=98027
+worker started pid=98027
+SIGKILL pid=98017 exit=-9, replacement pid=98029
+worker started pid=98029
+SIGKILL pid=98021 exit=-9, replacement pid=98031
+worker started pid=98031
+HTTP scenarios completed: 400
+SIGKILL pid=98020 exit=-9, replacement pid=98033
+worker started pid=98033
+Worker kills: 4
+Expected keys: 400, jobs in DB: 400
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [98016]

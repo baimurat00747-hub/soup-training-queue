@@ -1,0 +1,101 @@
+ Network soup-baseline-1794494723_default Creating 
+ Network soup-baseline-1794494723_default Created 
+ Volume soup-baseline-1794494723_queue-data Creating 
+ Volume soup-baseline-1794494723_queue-data Created 
+ Container soup-baseline-1794494723-api-1 Creating 
+ Container soup-baseline-1794494723-api-1 Created 
+ Container soup-baseline-1794494723-worker-4 Creating 
+ Container soup-baseline-1794494723-worker-1 Creating 
+ Container soup-baseline-1794494723-worker-2 Creating 
+ Container soup-baseline-1794494723-worker-3 Creating 
+ Container soup-baseline-1794494723-worker-1 Created 
+ Container soup-baseline-1794494723-worker-2 Created 
+ Container soup-baseline-1794494723-worker-3 Created 
+ Container soup-baseline-1794494723-worker-4 Created 
+ Container soup-baseline-1794494723-api-1 Starting 
+ Container soup-baseline-1794494723-api-1 Started 
+ Container soup-baseline-1794494723-api-1 Waiting 
+ Container soup-baseline-1794494723-api-1 Healthy 
+ Container soup-baseline-1794494723-worker-4 Starting 
+ Container soup-baseline-1794494723-worker-4 Started 
+ Container soup-baseline-1794494723-worker-1 Starting 
+ Container soup-baseline-1794494723-worker-1 Started 
+ Container soup-baseline-1794494723-worker-3 Starting 
+ Container soup-baseline-1794494723-worker-3 Started 
+ Container soup-baseline-1794494723-worker-2 Starting 
+ Container soup-baseline-1794494723-worker-2 Started 
+ Container soup-baseline-1794494723-api-1 Waiting 
+ Container soup-baseline-1794494723-worker-4 Waiting 
+ Container soup-baseline-1794494723-worker-1 Waiting 
+ Container soup-baseline-1794494723-worker-3 Waiting 
+ Container soup-baseline-1794494723-worker-2 Waiting 
+ Container soup-baseline-1794494723-worker-4 Healthy 
+ Container soup-baseline-1794494723-worker-1 Healthy 
+ Container soup-baseline-1794494723-api-1 Healthy 
+ Container soup-baseline-1794494723-worker-3 Healthy 
+ Container soup-baseline-1794494723-worker-2 Healthy 
+Target: 100 HTTP requests/s for 60s, workers=4, clients=16
+t=0.00s unfinished=0 queued=0 running=0 succeeded=0 cancelled=0
+t=5.00s unfinished=2 queued=0 running=2 succeeded=198 cancelled=50
+t=10.00s unfinished=2 queued=0 running=2 succeeded=398 cancelled=100
+t=15.00s unfinished=2 queued=0 running=2 succeeded=598 cancelled=150
+t=20.00s unfinished=2 queued=0 running=2 succeeded=798 cancelled=200
+t=25.00s unfinished=2 queued=0 running=2 succeeded=998 cancelled=250
+t=30.00s unfinished=2 queued=0 running=2 succeeded=1198 cancelled=300
+t=35.00s unfinished=2 queued=0 running=2 succeeded=1398 cancelled=350
+t=40.00s unfinished=2 queued=0 running=2 succeeded=1598 cancelled=400
+t=45.00s unfinished=2 queued=0 running=2 succeeded=1798 cancelled=450
+t=50.00s unfinished=2 queued=0 running=2 succeeded=1998 cancelled=500
+t=55.00s unfinished=2 queued=0 running=2 succeeded=2198 cancelled=550
+After all client responses: {'cancelled': 600, 'running': 2, 'succeeded': 2398}
+Scheduled: 6000, successful: 6000
+Requests started in 60s: 6000 (100.00/s)
+Successful responses in 60s: 6000
+Successful responses/s in window: 100.00
+Errors: 0, categories: {}
+Error examples: []
+Window 0–5s: starts=500 successes=500 HTTP 503=0
+Window 5–10s: starts=500 successes=500 HTTP 503=0
+Window 10–15s: starts=500 successes=500 HTTP 503=0
+Window 15–20s: starts=500 successes=500 HTTP 503=0
+Window 20–25s: starts=500 successes=500 HTTP 503=0
+Window 25–30s: starts=500 successes=500 HTTP 503=0
+Window 30–35s: starts=500 successes=500 HTTP 503=0
+Window 35–40s: starts=500 successes=500 HTTP 503=0
+Window 40–45s: starts=500 successes=500 HTTP 503=0
+Window 45–50s: starts=500 successes=500 HTTP 503=0
+Window 50–55s: starts=500 successes=500 HTTP 503=0
+Window 55–60s: starts=500 successes=500 HTTP 503=0
+HTTP latency p95=3.8 ms, p99=4.9 ms
+Client dispatch delay p95=0.9 ms
+Drain after last response: 0.20s
+Expected keys: 3000, jobs in DB: 3000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+ Container soup-baseline-1794494723-worker-4 Stopping 
+ Container soup-baseline-1794494723-worker-1 Stopping 
+ Container soup-baseline-1794494723-worker-2 Stopping 
+ Container soup-baseline-1794494723-worker-3 Stopping 
+ Container soup-baseline-1794494723-worker-4 Stopped 
+ Container soup-baseline-1794494723-worker-4 Removing 
+ Container soup-baseline-1794494723-worker-4 Removed 
+ Container soup-baseline-1794494723-worker-2 Stopped 
+ Container soup-baseline-1794494723-worker-2 Removing 
+ Container soup-baseline-1794494723-worker-2 Removed 
+ Container soup-baseline-1794494723-worker-3 Stopped 
+ Container soup-baseline-1794494723-worker-3 Removing 
+ Container soup-baseline-1794494723-worker-3 Removed 
+ Container soup-baseline-1794494723-worker-1 Stopped 
+ Container soup-baseline-1794494723-worker-1 Removing 
+ Container soup-baseline-1794494723-worker-1 Removed 
+ Container soup-baseline-1794494723-api-1 Stopping 
+ Container soup-baseline-1794494723-api-1 Stopped 
+ Container soup-baseline-1794494723-api-1 Removing 
+ Container soup-baseline-1794494723-api-1 Removed 
+ Volume soup-baseline-1794494723_queue-data Removing 
+ Network soup-baseline-1794494723_default Removing 
+ Volume soup-baseline-1794494723_queue-data Removed 
+ Network soup-baseline-1794494723_default Removed 
+Exit code: 0

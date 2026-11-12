@@ -1,0 +1,26 @@
+Target: 100 HTTP requests/s for 60s, workers=4
+t=0s unfinished=0
+t=5s unfinished=2
+t=10s unfinished=2
+t=15s unfinished=2
+t=20s unfinished=2
+t=25s unfinished=2
+t=30s unfinished=2
+t=35s unfinished=2
+t=40s unfinished=2
+t=45s unfinished=2
+t=50s unfinished=2
+t=55s unfinished=2
+Scheduled: 6000, successful: 6000
+Successful responses in 60s: 5999
+Successful responses/s in window: 99.98
+Errors: 0, examples: []
+HTTP latency p95=3.6 ms, p99=4.7 ms
+Client dispatch delay p95=1.6 ms
+Drain after last response: 0.20s
+Expected keys: 3000, jobs in DB: 3000
+Missing: 0, examples: []
+Extra: 0, examples: []
+Duplicate jobs: 0
+Invalid state or effect count: 0, examples: []
+Код выхода: 0

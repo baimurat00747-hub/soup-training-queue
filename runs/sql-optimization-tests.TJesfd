@@ -1,0 +1,16 @@
+test_expired_attempt_is_rejected_before_reclaim (test_claim_invariants.ClaimInvariantTest) ... At expiration before reclaim: renewed=False, completed=False
+ok
+test_old_attempt_is_rejected_after_reclaim_even_when_clock_moves_back (test_claim_invariants.ClaimInvariantTest) ... Attempt 1 while attempt 2 is running: renewed=False, completed=False
+Committed effects: [(1, 2)]
+ok
+test_two_workers_pass_precheck_but_only_one_claims (test_claim_invariants.ClaimInvariantTest) ... Results after both workers passed precheck: [None, (1, 1)]
+ok
+test_concurrent_creates_after_both_reads_missed_the_key (test_store_performance_invariants.StorePerformanceInvariantTest) ... ok
+test_existing_key_can_be_read_during_another_write (test_store_performance_invariants.StorePerformanceInvariantTest) ... ok
+test_lease_index_preserves_oldest_eligible_id (test_store_performance_invariants.StorePerformanceInvariantTest) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.049s
+
+OK
+Exit code: 0
